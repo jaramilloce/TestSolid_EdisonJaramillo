@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UQw7Ss7h4pw=",
+  "dgSpecHash": "jDmOSGAjAHo=",
   "success": true,
-  "projectFilePath": "D:\\CURSOS\\SOLID\\SrcSOLID\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj",
+  "projectFilePath": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edison\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
     "C:\\Users\\Edison\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
