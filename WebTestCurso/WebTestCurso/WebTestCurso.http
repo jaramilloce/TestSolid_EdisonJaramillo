@@ -1,0 +1,6 @@
+@WebTestCurso_HostAddress = http://localhost:5120
+
+GET {{WebTestCurso_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
