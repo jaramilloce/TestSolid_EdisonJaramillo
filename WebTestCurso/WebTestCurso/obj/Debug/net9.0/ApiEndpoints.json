@@ -26,6 +26,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebTestCurso.Controllers.DataBankController",
+    "Method": "GetDataPresentInfoClientBuild",
+    "RelativePath": "DataBank/GetDataPresentInfoClientBuild",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presentacionInformacionDto",
+        "Type": "WebTestCurso.Dto.DtoBuilder.PresentacionInformacionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebTestCurso.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

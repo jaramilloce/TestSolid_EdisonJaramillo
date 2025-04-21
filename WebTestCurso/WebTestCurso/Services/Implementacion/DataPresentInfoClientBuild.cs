@@ -22,6 +22,7 @@ public class DataPresentInfoClientBuild
 
         _presentacionInformacion.Cuenta1 = cuenta1;
 
+        _presentacionInformacion.mensajeFinal += $" Cuenta 1 aplicada {cuenta1} ";
         return this;
 
     }
@@ -36,16 +37,11 @@ public class DataPresentInfoClientBuild
         if(_presentacionInformacion.Cuenta1 == _presentacionInformacion.Cuenta2) throw new Exception("Cuenta 1 y Cuenta 2 no pueden ser iguales");
 
         _presentacionInformacion.Cuenta2 = cuenta2;
+        _presentacionInformacion.mensajeFinal += $" Cuenta 2 aplicada {cuenta2} ";
         return this;
 
     }
 
-
-
-  
-    //public string?  { get; set; }
-    //public string? Apellido { get; set; }
-    //public string? Dni { get; set; }
 
     /// <summary>
     /// Cuenta 3 debe tener al menos 5 caracteres
@@ -62,6 +58,7 @@ public class DataPresentInfoClientBuild
         if (Cuenta3.Length < 5) throw new Exception(" Cuenta 3 debe tener al menos 5 caracteres");
 
         _presentacionInformacion.Cuenta3 = Cuenta3;
+        _presentacionInformacion.mensajeFinal += $" Cuenta 3 aplicada {Cuenta3} ";
         return this;
 
     }
@@ -76,6 +73,38 @@ public class DataPresentInfoClientBuild
         return this;
 
     }
+
+
+    public DataPresentInfoClientBuild Apellido(string apellido)
+    {
+
+        //Valida que este ingresando bien.
+        if (string.IsNullOrEmpty(apellido)) throw new Exception("valor apellido es null");
+
+
+        _presentacionInformacion.Apellido = apellido;
+        return this;
+
+    }
+
+
+    public DataPresentInfoClientBuild Dni(string dni)
+    {
+
+        //Valida que este ingresando bien.
+        if (string.IsNullOrEmpty(dni)) throw new Exception("valor apellido es null");
+
+        if (dni.Length < 10) throw new Exception("Dni no puede ser menor que 10 digitos");
+
+        if (dni.Length == 10) { _ = _presentacionInformacion.Dni == "Es una cedula"; }
+
+        if (dni.Length == 13) { _ = _presentacionInformacion.Dni == "Es un Ruc"; }
+
+        // _presentacionInformacion.Dni = dni;
+        return this;
+
+    }
+
 
     public PresentacionInformacionDto Build() => _presentacionInformacion;
 
