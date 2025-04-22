@@ -42,6 +42,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebTestCurso.Controllers.DataBankController",
+    "Method": "SetValoresPrestamos",
+    "RelativePath": "DataBank/SetValoresPrestamos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagoPrestamoDto",
+        "Type": "WebTestCurso.Dto.DtoBuilder.PagoPrestamoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebTestCurso.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

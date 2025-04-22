@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebTestCurso")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fe1c77d28d812a9aae8bed4c2ae0271e7d5d076")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00521dee7654e2238a53087a76d5dfc2e312808f")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebTestCurso")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebTestCurso")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

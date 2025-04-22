@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj": {}
+    "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj": {}
   },
   "projects": {
-    "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj": {
+    "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj",
+        "projectUniqueName": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj",
         "projectName": "WebTestCurso",
-        "projectPath": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj",
-        "packagesPath": "C:\\Users\\Edison\\.nuget\\packages\\",
-        "outputPath": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\obj\\",
+        "projectPath": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\WebTestCurso.csproj",
+        "packagesPath": "C:\\Users\\ejaramillo\\.nuget\\packages\\",
+        "outputPath": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Edison\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ejaramillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -87,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

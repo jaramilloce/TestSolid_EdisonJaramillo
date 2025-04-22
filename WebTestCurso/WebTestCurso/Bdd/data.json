@@ -1,0 +1,51 @@
+﻿[
+  {
+    "CaprId": 12,
+    "CaprCodigo": 12,
+    "CaprCuenta": "Bienes de Control",
+    "CaprCuentaRuta": "Bienes de Control",
+    "CaprSaldo": 1200,
+    "CaprStatus": 1
+  },
+  {
+    "CaprId": 13,
+    "CaprCodigo": 13,
+    "CaprCuenta": "Terrenos",
+    "CaprCuentaRuta": "Bienes de Control / Terrenos",
+    "CaprSaldo": 1200,
+    "CaprStatus": 1
+  },
+  {
+    "CaprId": 14,
+    "CaprCodigo": 14,
+    "CaprCuenta": "Equipo de Oficina",
+    "CaprCuentaRuta": "Bienes de Control / Equipo de Oficina",
+    "CaprSaldo": 1200,
+    "CaprStatus": 1
+  },
+  {
+    "CaprId": 25,
+    "CaprCodigo": 29,
+    "CaprCuenta": "Abonos Org nicos",
+    "CaprCuentaRuta": "Productos Agr colas / Abonos Org nicos",
+    "CaprSaldo": 1200,
+    "CaprStatus": 1
+  },
+  {
+    "CaprId": 62,
+    "CaprCodigo": 66,
+    "CaprCuenta": "Salud animal",
+    "CaprCuentaRuta": "Productos Pecuarios / Salud animal",
+    "CaprSaldo": 1200,
+    "CaprStatus": 1
+  },
+  {
+    "CaprId": 63,
+    "CaprCodigo": 67,
+    "CaprCuenta": "Analg sicos",
+    "CaprCuentaRuta": "Productos Pecuarios / Salud animal / Analgesicos",
+    "CaprSaldo": 1200,
+    "CaprStatus": 1
+    
+  }
+]

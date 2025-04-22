@@ -13,12 +13,15 @@ namespace WebTestCurso.Controllers
         
         private readonly IDataBankProdubanco _dataBankProdubanco;
         private readonly IDataBank _dataBank;
+        private readonly IDataBankPrestamo _dataBankPrestamo;
 
         public DataBankController(IDataBankProdubanco dataBankProdubanco,
-            IDataBank dataBank)
+            IDataBank dataBank,
+            IDataBankPrestamo dataBankPrestamo)
         {
             _dataBankProdubanco = dataBankProdubanco;
             _dataBank = dataBank;
+            _dataBankPrestamo = dataBankPrestamo;
         }
 
 
@@ -49,7 +52,9 @@ namespace WebTestCurso.Controllers
         [HttpPost("GetDataPresentInfoClientBuild")]
         public async Task<IActionResult> GetDataPresentInfoClientBuild([FromBody] PresentacionInformacionDto presentacionInformacionDto)
         {
-            var reult = await _dataBank.GetDataPresentInfoClientBuild
+            try {
+
+                var reult = await _dataBank.GetDataPresentInfoClientBuild
                 (presentacionInformacionDto.Cuenta1,
                 presentacionInformacionDto.Cuenta2,
                 presentacionInformacionDto.Cuenta3,
@@ -57,8 +62,29 @@ namespace WebTestCurso.Controllers
                 presentacionInformacionDto.Apellido,
                 presentacionInformacionDto.Dni);
 
+                return Ok(reult.mensajeFinal);
+            }
+            catch (Exception ex) {
+
+                return Ok(ex.Message);
+            }
             
-            return Ok(reult.mensajeFinal);
+        }
+
+        [HttpPost("SetValoresPrestamos")]
+        public async Task<IActionResult> SetValoresPrestamos([FromBody] PagoPrestamoDto pagoPrestamoDto)
+        {
+            try
+            {
+                var data = await _dataBankPrestamo.SetValoresPrestamos(pagoPrestamoDto);
+                return Ok(data);
+            }
+            catch (Exception ex)
+            {
+
+                return Ok(ex.Message);
+            }
+
         }
     }
 }

@@ -2,6 +2,8 @@ using WebTestCurso.Services.Implementacion;
 using WebTestCurso.Services.Interfaces;
 using WebTestCurso.Services.Singleton;
 using Serilog;
+using WebTestCurso.Repository;
+using WebTestCurso.Services.Implementacion.ValidacionesStrategy;
 
 
 Log.Logger = new LoggerConfiguration()
@@ -18,6 +20,13 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddScoped<IDataBankProdubanco, DataBankProdubanco>();
 builder.Services.AddScoped<IDataBank, DataBanks>();
+
+builder.Services.AddScoped<IValidacionesVarias, ValidacionPagoPrestamo>();
+builder.Services.AddScoped<IRepoBankRepository, RepoBankRepository>();
+builder.Services.AddScoped<IDataBankPrestamo, DataBanksPrestamos>();
+
+
+
 
 builder.Services.AddSingleton<DataUnifyOptionBank>();
 
