@@ -26,8 +26,6 @@ namespace WebTestCurso.Services.Implementacion
         public async Task<PagoPrestamoDto> SetValoresPrestamos(PagoPrestamoDto pagoPrestamoDto)
         {
 
-            //PagoPrestamoDto pagoPrestamoDto1 = new PagoPrestamoDto();
-            //return Task.FromResult(pagoPrestamoDto1).Result;
             var resultado = new PagoPrestamoBuild(_bankRepository, _validacionesVarias)
                .Cuenta1(pagoPrestamoDto)
                .CuentaSaldoCorrectos(pagoPrestamoDto)

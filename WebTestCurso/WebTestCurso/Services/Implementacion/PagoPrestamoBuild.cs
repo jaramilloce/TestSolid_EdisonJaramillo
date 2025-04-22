@@ -34,6 +34,7 @@ public class PagoPrestamoBuild
         var context = new ValidacionPagoPrestamoContexto(new ValidacionValoresCorrestos(_bankRepository));
 
         var resultadoVal = context.Validar(pago);
+        this._pagoPrestamoDto.mensajeFinal = "los valores no mismo";
         return this;
 
     }
