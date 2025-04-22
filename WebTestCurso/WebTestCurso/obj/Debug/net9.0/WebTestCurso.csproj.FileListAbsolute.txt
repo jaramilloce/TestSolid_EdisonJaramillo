@@ -136,3 +136,4 @@ D:\Curso\SOLID\TestSolid_EdisonJaramillo\TestSolid_EdisonJaramillo\WebTestCurso\
 D:\Curso\SOLID\TestSolid_EdisonJaramillo\TestSolid_EdisonJaramillo\WebTestCurso\WebTestCurso\obj\Debug\net9.0\WebTestCurso.genruntimeconfig.cache
 D:\Curso\SOLID\TestSolid_EdisonJaramillo\TestSolid_EdisonJaramillo\WebTestCurso\WebTestCurso\obj\Debug\net9.0\ref\WebTestCurso.dll
 D:\Curso\SOLID\TestSolid_EdisonJaramillo\TestSolid_EdisonJaramillo\WebTestCurso\WebTestCurso\bin\Debug\net9.0\Bdd\data.json
+D:\CURSOS\SOLID\TestSolid_EdisonJaramillo\TestSolid_EdisonJaramillo\WebTestCurso\WebTestCurso\bin\Debug\net9.0\Bdd\data.json

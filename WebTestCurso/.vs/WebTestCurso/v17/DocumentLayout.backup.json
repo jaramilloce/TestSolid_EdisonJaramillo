@@ -1,22 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\",
+  "WorkspaceRootPath": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\curso\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\services\\implementacion\\pagoprestamobuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Edison\\AppData\\Local\\SourceServer\\8e64d3f362fcd95ec7a9efe34eb62566694fb6a56ffb13aae65f2f1889ec404c\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\cursos\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\services\\implementacion\\pagoprestamobuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|solutionrelative:webtestcurso\\services\\implementacion\\pagoprestamobuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\curso\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\services\\implementacion\\databanksprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|solutionrelative:webtestcurso\\services\\implementacion\\databanksprestamos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\curso\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\services\\implementacion\\validacionesstrategy\\validacionpagoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|solutionrelative:webtestcurso\\services\\implementacion\\validacionesstrategy\\validacionpagoprestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\curso\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\controllers\\databankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\cursos\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\controllers\\databankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|solutionrelative:webtestcurso\\controllers\\databankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\cursos\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\services\\implementacion\\databanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|solutionrelative:webtestcurso\\services\\implementacion\\databanks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\cursos\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|solutionrelative:webtestcurso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|d:\\cursos\\solid\\testsolid_edisonjaramillo\\testsolid_edisonjaramillo\\webtestcurso\\webtestcurso\\bdd\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10E75984-00D5-4FBC-97FE-56ACD46B98B1}|WebTestCurso\\WebTestCurso.csproj|solutionrelative:webtestcurso\\bdd\\data.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,53 +39,111 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PagoPrestamoBuild.cs",
-              "DocumentMoniker": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
-              "RelativeDocumentMoniker": "WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
-              "ToolTip": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
-              "RelativeToolTip": "WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAewBoAAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Edison\\AppData\\Local\\SourceServer\\8e64d3f362fcd95ec7a9efe34eb62566694fb6a56ffb13aae65f2f1889ec404c\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
+              "ToolTip": "C:\\Users\\Edison\\AppData\\Local\\SourceServer\\8e64d3f362fcd95ec7a9efe34eb62566694fb6a56ffb13aae65f2f1889ec404c\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs [Solo lectura]",
+              "ViewState": "AgIAABcAAAAAAAAAAAAvwAAAAAAAAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:01:10.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T19:51:36.434Z",
+              "EditorCaption": " [Solo lectura]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValidacionPagoPrestamo.cs",
-              "DocumentMoniker": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\ValidacionesStrategy\\ValidacionPagoPrestamo.cs",
-              "RelativeDocumentMoniker": "WebTestCurso\\Services\\Implementacion\\ValidacionesStrategy\\ValidacionPagoPrestamo.cs",
-              "ToolTip": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\ValidacionesStrategy\\ValidacionPagoPrestamo.cs",
-              "RelativeToolTip": "WebTestCurso\\Services\\Implementacion\\ValidacionesStrategy\\ValidacionPagoPrestamo.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T15:19:36.46Z",
+              "DocumentIndex": 5,
+              "Title": "data.json",
+              "DocumentMoniker": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Bdd\\data.json",
+              "RelativeDocumentMoniker": "WebTestCurso\\Bdd\\data.json",
+              "ToolTip": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Bdd\\data.json",
+              "RelativeToolTip": "WebTestCurso\\Bdd\\data.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T17:31:59.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataBanksPrestamos.cs",
-              "DocumentMoniker": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\DataBanksPrestamos.cs",
-              "RelativeDocumentMoniker": "WebTestCurso\\Services\\Implementacion\\DataBanksPrestamos.cs",
-              "ToolTip": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\DataBanksPrestamos.cs",
-              "RelativeToolTip": "WebTestCurso\\Services\\Implementacion\\DataBanksPrestamos.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCAAAAAaAAAAAAAAAA==",
+              "Title": "PagoPrestamoBuild.cs",
+              "DocumentMoniker": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
+              "RelativeDocumentMoniker": "WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
+              "ToolTip": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
+              "RelativeToolTip": "WebTestCurso\\Services\\Implementacion\\PagoPrestamoBuild.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T15:11:05.753Z",
+              "WhenOpened": "2025-04-22T17:17:57.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Program.cs",
+              "RelativeDocumentMoniker": "WebTestCurso\\Program.cs",
+              "ToolTip": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Program.cs",
+              "RelativeToolTip": "WebTestCurso\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:52:14.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DataBankController.cs",
-              "DocumentMoniker": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Controllers\\DataBankController.cs",
-              "RelativeDocumentMoniker": "WebTestCurso\\Controllers\\DataBankController.cs",
-              "ToolTip": "D:\\Curso\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Controllers\\DataBankController.cs",
-              "RelativeToolTip": "WebTestCurso\\Controllers\\DataBankController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAYwE8AAAAQAAAAAAAAAA==",
+              "Title": "DataBanks.cs",
+              "DocumentMoniker": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\DataBanks.cs",
+              "RelativeDocumentMoniker": "WebTestCurso\\Services\\Implementacion\\DataBanks.cs",
+              "ToolTip": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Services\\Implementacion\\DataBanks.cs",
+              "RelativeToolTip": "WebTestCurso\\Services\\Implementacion\\DataBanks.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T15:08:56.063Z",
+              "WhenOpened": "2025-04-21T01:15:21.712Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBankController.cs",
+              "DocumentMoniker": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Controllers\\DataBankController.cs",
+              "RelativeDocumentMoniker": "WebTestCurso\\Controllers\\DataBankController.cs",
+              "ToolTip": "D:\\CURSOS\\SOLID\\TestSolid_EdisonJaramillo\\TestSolid_EdisonJaramillo\\WebTestCurso\\WebTestCurso\\Controllers\\DataBankController.cs",
+              "RelativeToolTip": "WebTestCurso\\Controllers\\DataBankController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T01:19:31.251Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 844,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 245,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 844,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

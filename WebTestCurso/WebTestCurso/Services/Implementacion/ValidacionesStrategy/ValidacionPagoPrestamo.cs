@@ -37,7 +37,11 @@ public class ValidacionPagoPrestamo : IValidacionesVarias
 
 
     }
-    
+
+    public DataPrestamoBankDto ValidaValoresCuentaCorrecta(PagoPrestamoDto pagoPrestamoDto)
+    {
+        throw new NotImplementedException();
+    }
 }
 
 /// <summary>
@@ -74,6 +78,11 @@ public class ValidacionValoresCorrestos : IValidacionesVarias
         }
 
 
+    }
+
+    public DataPrestamoBankDto ValidaValoresCuentaCorrecta(PagoPrestamoDto pagoPrestamoDto)
+    {
+        throw new NotImplementedException();
     }
 }
 

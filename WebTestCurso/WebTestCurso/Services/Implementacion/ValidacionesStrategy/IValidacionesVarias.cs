@@ -6,5 +6,7 @@ namespace WebTestCurso.Services.Implementacion.ValidacionesStrategy;
 public interface IValidacionesVarias
 {
     bool ValidaCuentaCorrecta(PagoPrestamoDto pagoPrestamoDto);
+
+    DataPrestamoBankDto ValidaValoresCuentaCorrecta(PagoPrestamoDto pagoPrestamoDto);
 }
 

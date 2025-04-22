@@ -25,6 +25,13 @@ public class PagoPrestamoBuild
     {
         var context = new ValidacionPagoPrestamoContexto(new ValidacionPagoPrestamo(_bankRepository));
         var resultadoVal = context.Validar(pago);
+
+        if (!resultadoVal)
+        {
+            this._pagoPrestamoDto.mensajeFinal += $"Cuenta {pago.Cuenta1} no existe ";
+        }
+
+
         return this;
 
     }
@@ -33,8 +40,12 @@ public class PagoPrestamoBuild
     {
         var context = new ValidacionPagoPrestamoContexto(new ValidacionValoresCorrestos(_bankRepository));
 
-        var resultadoVal = context.Validar(pago);
-        this._pagoPrestamoDto.mensajeFinal = "los valores no mismo";
+        var resultadoValCir = context.Validar(pago);
+
+        if (!resultadoValCir) {
+            this._pagoPrestamoDto.mensajeFinal += "Valor del prestamos supera al saldo ";
+        }
+        
         return this;
 
     }
