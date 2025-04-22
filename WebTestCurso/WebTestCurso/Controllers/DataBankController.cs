@@ -12,16 +12,19 @@ namespace WebTestCurso.Controllers
     {
         
         private readonly IDataBankProdubanco _dataBankProdubanco;
+        private readonly IDataBankSolidario _dataBankSolidario;
         private readonly IDataBank _dataBank;
         private readonly IDataBankPrestamo _dataBankPrestamo;
 
         public DataBankController(IDataBankProdubanco dataBankProdubanco,
             IDataBank dataBank,
-            IDataBankPrestamo dataBankPrestamo)
+            IDataBankPrestamo dataBankPrestamo,
+            IDataBankSolidario dataBankSolidario)
         {
             _dataBankProdubanco = dataBankProdubanco;
             _dataBank = dataBank;
             _dataBankPrestamo = dataBankPrestamo;
+            _dataBankSolidario = dataBankSolidario;
         }
 
 
@@ -33,6 +36,17 @@ namespace WebTestCurso.Controllers
         public async Task<IActionResult> GetDataBankProdubanco()
         {
             var reult = await _dataBankProdubanco.GetDataBank(1);
+            return Ok(reult);
+        }
+
+        /// <summary>
+        /// Data de Produbanco
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("GetDataBankSolidario")]
+        public async Task<IActionResult> GetDataBankSolidario()
+        {
+            var reult = await _dataBankSolidario.GetDataBank(1);
             return Ok(reult);
         }
 

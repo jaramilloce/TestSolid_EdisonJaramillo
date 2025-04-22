@@ -19,14 +19,13 @@ builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddScoped<IDataBankProdubanco, DataBankProdubanco>();
+builder.Services.AddScoped<IDataBankSolidario, DataBankSolidario>();
+
 builder.Services.AddScoped<IDataBank, DataBanks>();
 
 builder.Services.AddScoped<IValidacionesVarias, ValidacionPagoPrestamo>();
 builder.Services.AddScoped<IRepoBankRepository, RepoBankRepository>();
 builder.Services.AddScoped<IDataBankPrestamo, DataBanksPrestamos>();
-
-
-
 
 builder.Services.AddSingleton<DataUnifyOptionBank>();
 

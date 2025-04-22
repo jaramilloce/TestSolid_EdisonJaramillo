@@ -27,6 +27,16 @@
   },
   {
     "ContainingType": "WebTestCurso.Controllers.DataBankController",
+    "Method": "GetDataBankSolidario",
+    "RelativePath": "DataBank/GetDataBankSolidario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebTestCurso.Controllers.DataBankController",
     "Method": "GetDataPresentInfoClientBuild",
     "RelativePath": "DataBank/GetDataPresentInfoClientBuild",
     "HttpMethod": "POST",
