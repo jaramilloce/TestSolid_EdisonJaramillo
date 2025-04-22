@@ -4,6 +4,7 @@ public class DataPrestamoBankDto
 {
     public int CaprId { get; set; }
     public int CaprCodigo { get; set; }
+    public string CaprDni { get; set; }
     public string CaprCuenta { get; set; }
     public string CaprCuentaRuta { get; set; }
     public decimal CaprSaldo { get; set; }

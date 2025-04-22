@@ -29,8 +29,14 @@ namespace WebTestCurso.Services.Implementacion
             var resultado = new PagoPrestamoBuild(_bankRepository, _validacionesVarias)
                .Cuenta1(pagoPrestamoDto)
                .CuentaSaldoCorrectos(pagoPrestamoDto)
+               .ControlesDni(pagoPrestamoDto)
                .Build();
-            
+
+            if (resultado.mensajeFinal == null) {
+                pagoPrestamoDto.mensajeFinal = "Saldado con éxito";
+                return Task.FromResult(pagoPrestamoDto).Result;
+            } 
+
             return Task.FromResult(resultado).Result;
             
         }

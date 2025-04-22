@@ -28,7 +28,7 @@ public class PagoPrestamoBuild
 
         if (!resultadoVal)
         {
-            this._pagoPrestamoDto.mensajeFinal += $"Cuenta {pago.Cuenta1} no existe ";
+            this._pagoPrestamoDto.mensajeFinal += $"Cuenta {pago.Cuenta1} no existe, ";
         }
 
 
@@ -43,9 +43,24 @@ public class PagoPrestamoBuild
         var resultadoValCir = context.Validar(pago);
 
         if (!resultadoValCir) {
-            this._pagoPrestamoDto.mensajeFinal += "Valor del prestamos supera al saldo ";
+            this._pagoPrestamoDto.mensajeFinal += "Verifique que los valores sean los correctos, ";
         }
         
+        return this;
+
+    }
+
+    public PagoPrestamoBuild ControlesDni(PagoPrestamoDto pago)
+    {
+        var context = new ValidacionPagoPrestamoContexto(new ValidacionDni(_bankRepository));
+
+        var resultadoValCir = context.Validar(pago);
+
+        if (!resultadoValCir)
+        {
+            this._pagoPrestamoDto.mensajeFinal += " Dni no existe, ";
+        }
+
         return this;
 
     }

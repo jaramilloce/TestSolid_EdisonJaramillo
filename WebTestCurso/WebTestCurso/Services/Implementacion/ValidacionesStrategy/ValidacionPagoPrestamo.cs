@@ -86,3 +86,46 @@ public class ValidacionValoresCorrestos : IValidacionesVarias
     }
 }
 
+
+
+
+/// <summary>
+/// Metodo de validación de valores correctos de cuenta por valores
+/// </summary>
+public class ValidacionDni : IValidacionesVarias
+{
+
+    private readonly IRepoBankRepository _bankRepository;
+
+    public ValidacionDni(IRepoBankRepository bankRepository)
+    {
+        _bankRepository = bankRepository;
+    }
+
+    public bool ValidaCuentaCorrecta(PagoPrestamoDto pagoPrestamoDto)
+    {
+        var resultado = _bankRepository.GetDataPrestamosBanks().Result;
+
+        //Valida si existe la cuenta y valida que el prestamo este aun con saldo
+        var dataFiltrada = resultado.FirstOrDefault(
+            x =>
+            x.CaprDni == pagoPrestamoDto.Dni 
+            );
+
+        if (dataFiltrada != null)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+
+
+    }
+
+    public DataPrestamoBankDto ValidaValoresCuentaCorrecta(PagoPrestamoDto pagoPrestamoDto)
+    {
+        throw new NotImplementedException();
+    }
+}
